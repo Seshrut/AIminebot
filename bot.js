@@ -6,13 +6,18 @@ like #BREAK 12 65 30 #CHAT broke the block at 12 65 30, anything else?
 
 
 */
+let api = process.argv[2]
+let serverip = process.argv[3]
+let serverport = process.argv[4]
+let botname = process.argv[5]
+let botpassword = process.argv[6]
 
 const {
   GoogleGenerativeAI,
   HarmBlockThreshold,
   HarmCategory,
 } = require("@google/generative-ai");
-const genAI = new GoogleGenerativeAI("API HERE");
+const genAI = new GoogleGenerativeAI(api);
 
 const safetySettings = [
   {
@@ -166,10 +171,23 @@ const { GoalNear, GoalNearXZ } = require("mineflayer-pathfinder").goals; // goal
 const pvp = require("mineflayer-pvp").plugin;
 const toolplugin = require("mineflayer-tool").plugin;
 
-const bot = mineflayer.createBot({
-  host: "localhost", // minecraft server ip
-  username: "Bot",
-});
+let bot;
+if (!botpassword) {
+  bot = mineflayer.createBot({
+    host: serverip, // minecraft server ip
+    port: serverport,
+    username: botname,
+  })
+}
+else {
+  bot = mineflayer.createBot({
+    host: serverip, // minecraft server ip
+    port: serverport,
+    username: botname,
+    password: botpassword
+  })
+}
+
 
 bot.loadPlugin(pathfinder);
 bot.loadPlugin(pvp);
@@ -339,7 +357,6 @@ async function findcommand(respond) {
         }
         await bot.pvp.attack(myEntity);
       } catch (error) {
-        console.log(error);
         await talk("entity not found, try to locate it first or syntax error, #ATTACK <entity> {remember to use lower case in entity name}");
       }
     }
