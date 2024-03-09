@@ -4,14 +4,15 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 
 ### DO NOT GOTO STEP 2 UNTIL YOU ARE SURE STEP 1 IS COMPLETE
 
-1] install [node](https://nodejs.org/en/download)<br>
-2] install [setup file](https://github.com/Seshrut/AIminebot/releases)<br>
-3] [makersuit account](https://makersuite.google.com/) {its free} and get api key<br>
-4] press `WIN + R` and paste `C:\Program Files (x86)\AIminebot` hit `OK`<br>
-5] right click start.bat and replace `APIHERE` with your api key<br>
-6] you can also change `localhost` to server ip of your choice and `25565` with port of the server {generally its 25565}<br>
-7] you can also change `BOT` to usename. To online-mode you have to enter password after username
-{the default `localhost` is singleplayer with open lan at 25565 port}
+1] install [node](https://nodejs.org/en/download)<br><br>
+2] install [setup file](https://github.com/Seshrut/AIminebot/releases) <br>
+{whilst [2] is running start step [3] as it takes a few mins}<br><br>
+3] [makersuit account](https://makersuite.google.com/) {its free} and get api key<br><br>
+4] wait for step 2 to complete, file explorer will open at `C:\Program Files (x86)\AIminebot`
+5] right click start.bat and replace `APIHERE` with your api key<br><br>
+6] you can also change `localhost` to server ip of your choice and `25565` with port of the server {generally its 25565}<br><br>
+7] you can also change `BOT` to usename. To online-mode you have to enter password after username<br>
+{the default `localhost` is singleplayer with open lan at 25565 port}<br>
 
 #### BOT ONLY RESPONDS TO MESSAGES STARTING FROM `@`
 <hr>
@@ -33,3 +34,4 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 2] make a wall around specified area.<br>
 3] interaction with chests and chest like gui.<br>
 4] make it user-friendly.<br>
+5] easier setup.
