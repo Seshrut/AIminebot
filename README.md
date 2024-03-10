@@ -7,7 +7,7 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 1] install [node](https://nodejs.org/en/download)<br><br>
 2] install [setup file](https://github.com/Seshrut/AIminebot/releases) <br>
 {whilst [2] is running start step [3] as it takes a few mins}<br><br>
-3] [makersuit account](https://makersuite.google.com/) {its free} and get api key<br><br>
+3] [ google ai studio account ](https://makersuite.google.com/) {its free} and get api key<br><br>
 4] wait for step 2 to complete, file explorer will open at `C:\Program Files (x86)\AIminebot`
 5] right click start.bat and replace `APIHERE` with your api key<br><br>
 6] you can also change `localhost` to server ip of your choice and `25565` with port of the server {generally its 25565}<br><br>
