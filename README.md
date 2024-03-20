@@ -1,7 +1,7 @@
 # AIminebot
 A Minecraft bot that uses LLM to converts user's chat into actions for a Minecraft player entity.
 ## SETUP
-
+◘ will be much less work in v0.0.1
 ### DO NOT GOTO STEP 2 UNTIL YOU ARE SURE STEP 1 IS COMPLETE
 
 1] install [node](https://nodejs.org/en/download)<br><br>
@@ -31,7 +31,7 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 11] auto eat when low on hunger {in version v0.0.1 full release}
 
 ## TO ADD
-1] make a wall around specified area.<br>
+1] make a wall around specified area. ◘nearly complete<br>
 2] interaction with chests and chest like gui.<br>
-3] make it user-friendly.<br>
-4] easier setup.
+3] make it user-friendly.◘ yet to be imporved <br>
+4] easier setup.◘ yet to be tested<br>
