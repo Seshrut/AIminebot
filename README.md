@@ -12,9 +12,11 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 4] run `AIminebot` from desktop{or from the location where you saved the file during setup}<br><br>
 5] use it to spawn the bot in your world<br><br>
 <hr>
+
 #### BOT ONLY RESPONDS TO MESSAGES STARTING FROM `@`
 #### BOT ONLY EATS COOKED_PORKCHOP
 #### running the file causes a cmd terminal to run in background, DO NOT CLOSE IT.
+
 <hr>
 
 ## CAPABILITIES
