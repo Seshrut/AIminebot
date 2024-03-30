@@ -9,8 +9,9 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 2] install [setup file](https://github.com/Seshrut/AIminebot/releases) <br>
 {whilst [2] is running start step [3] as it takes a few mins}<br><br>
 3] [ google ai studio account ](https://makersuite.google.com/) {its free} and get api key<br><br>
-4] run `AIminebot` from desktop{or from the location where you saved the file during setup}
-5] use it to spawn the bot in your world
+4] run `AIminebot` from desktop{or from the location where you saved the file during setup}<br><br>
+5] use it to spawn the bot in your world<br><br>
+<hr>
 #### BOT ONLY RESPONDS TO MESSAGES STARTING FROM `@`
 #### BOT ONLY EATS COOKED_PORKCHOP
 #### running the file causes a cmd terminal to run in background, DO NOT CLOSE IT.
