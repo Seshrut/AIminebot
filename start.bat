@@ -1,1 +1,0 @@
-start bot.js APIHERE localhost 25565 BOT
