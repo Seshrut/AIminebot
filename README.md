@@ -29,9 +29,9 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 7] attack specified entity{including players} until it dies.<br>
 8] hold specified item in hand.<br>
 9] fill a cuboidal area with specified block and specified coordinates(two coordinates at extreme opposite).<br>
-10] able to view bot's perspective on web browser without being on the server via `localhost:3000`
-11] auto eat when low on hunger
-12] easy setup
+10] able to view bot's perspective on web browser without being on the server via `localhost:3000`<br>
+11] auto eat when low on hunger<br>
+12] easy setup<br>
 
 ## TO ADD
 1] make a wall around specified area. ◘nearly complete<br>
