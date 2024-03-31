@@ -1,22 +1,125 @@
-<!DOCTYPE html>
+<!--DOCTYPE html -->
+<html>
+
 <head>
-    <title>
-        Aiminebot
-    </title>
-</head>
-<body style="background-color: antiquewhite;font-size: medium;">
-    <pre>
-    GEMINI API KEY*                                                      <a href="https://aistudio.google.com/app/apikey">get key</a>  <input type="text" maxlength="100" id="api">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    Username* of bot                                                              <input type="text" minlength="4" maxlength="16" id="name">
+	<!--pageMeta-->
+	<title>AIminebot</title>
+	<!-- Loading Bootstrap -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    Server ip*                                                                    <input type="text" id="ip">
+	<!-- Loading Flat UI -->
+	<link href="css/flat-ui.css" rel="stylesheet">
 
-    server port {do not change if you dont know the port}                         <input type="text" value="25565" id="port">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style-contact.css" rel="stylesheet">
+	<link href="css/style-footers.css" rel="stylesheet">
 
-    password {only for premium minecraft accounts}                                <input type="text" id="password">
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.css" rel="stylesheet">
 
-    <button id="btn">ENTER</button>
-    <script src="renderer.js"></script>
-    <div id="console"></div>
+<body>
+
+	<div id="page" class="page">
+
+		<!-- /.item --><!-- /.item --><!-- /.footerWrapper -->
+		<div class="item contact padding-top-0 padding-bottom-0" id="contact1">
+
+			<div class="wrapper grey">
+
+				<div class="container">
+
+					<div class="col-md-5">
+
+						<h3 class="margin-bottom-40 editContent">AIminebot</h3>
+						enter microsoft email account in username IF connecting in online mode<br>
+						ELSE just use ingame name of bot
+
+						<form role="form">
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="name" name="name" placeholder="userame*">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="api" name="email" placeholder="Gemini API*">
+							</div>
+
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="ip" name="phone" placeholder="Server IP*">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="port" name="phone" placeholder="Server Port*" value="25565">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="password" name="phone" placeholder="Password {if using microsoft account}">
+							</div>
+							<hr>
+
+							<button type="submit" class="btn btn-primary btn-embossed btn-lg btn-wide" id="btn" >Start BOT</button>
+
+						</form>
+
+					</div><!-- /.col-md-5 -->
+					<style>
+						div{} .myconsole{background-color:darkgrey;}
+					</style>
+					<div class="col-md-6 col-md-offset-1">
+						<a href="https://aistudio.google.com/app/apikey">get key</a>
+						<h3 class="margin-bottom-40 editContent">Console</h3>
+						<div class="myconsole" id="console">
+							<b>errors will appear here:</b><br>
+						</div><!-- /.editContent -->
+
+
+
+
+
+
+
+					</div><!-- /.col-md-6 -->
+
+				</div><!-- /.container -->
+
+			</div><!-- /.wrapper -->
+
+		</div><!-- /.item -->
+		<div class="footerWrapper" id="footer2">
+
+			<div class="item footer bottom-menu">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 navbar-brand">
+							<a class="" href="#fakelink"><img src="images/img.png" class="small"></a>
+						</div>
+
+						<div class="col-md-8">
+							<ul class="bottom-links">
+								<li><a href="https://github.com/Seshrut/Seshrut">About Me</a></li>
+								<li class="active"><a href="https://github.com/Seshrut/AIminebot">Contribute</a></li>
+								<li><a href="https://github.com/Seshrut/AIminebot/blob/main/LICENSE">License</a></li>
+								<li><a href="https://github.com/users/Seshrut/projects/4">Follow Us</a></li>
+								<li><a href="#fakelink">Support</a></li>
+								<li><a href="https://github.com/Seshrut?tab=repositories">Other Projects</a></li>
+							</ul>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div><!-- /.item -->
+
+		</div><!-- /.footerWrapper -->
+	</div><!-- /#page -->
+
+
+	<!-- Load JS here for greater good =============================-->
+	<script src="renderer.js"></script>
+
 </body>
+
+</html>
