@@ -1,6 +1,6 @@
 [![Official Discord](https://img.shields.io/static/v1.svg?label=OFFICIAL&message=DISCORD&color=blue&logo=discord&style=for-the-badge)](https://discord.gg/XetraY3Zuh)
-# AIminebot {depricated}
-## these guys did it better https://voyager.minedojo.org/
+# AIminebot
+## these guys did it better than me https://voyager.minedojo.org/ but here's a better UI and setup
 A Minecraft bot that uses LLM to converts user's chat into actions for a Minecraft player entity.
 ## SETUP
 
