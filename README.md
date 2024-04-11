@@ -1,5 +1,5 @@
 [![Official Discord](https://img.shields.io/static/v1.svg?label=OFFICIAL&message=DISCORD&color=blue&logo=discord&style=for-the-badge)](https://discord.gg/XetraY3Zuh)
-# AIminebot
+# AIminebot {Depricated gemini is now paid}
 ## these guys did it better than me https://voyager.minedojo.org/ but here's a better UI and setup
 A Minecraft bot that uses LLM to converts user's chat into actions for a Minecraft player entity.
 ## SETUP
@@ -9,7 +9,7 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 2] install [setup file](https://github.com/Seshrut/AIminebot/releases) <br>
 {whilst [2] is running start step [3] as it takes a few mins}<br><br>
 
-3] [ google ai studio account ](https://makersuite.google.com/) {its free} and get api key<br><br>
+3] [ google ai studio account ](https://makersuite.google.com/) {its NO LONGER free} and get api key<br><br>
 
 4] run `AIminebot` from desktop{or from the location where you saved the file during setup}<br><br>
 
