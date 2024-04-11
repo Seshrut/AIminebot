@@ -41,3 +41,4 @@ A Minecraft bot that uses LLM to converts user's chat into actions for a Minecra
 1] interaction with chests and "chest like" gui.<br>
 2] better auto eat<br>
 3] rewrite fill {and maybe wall} to be faster <br>
+5] local LLM?
