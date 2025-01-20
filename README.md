@@ -1,7 +1,7 @@
 [![Official Discord](https://img.shields.io/static/v1.svg?label=OFFICIAL&message=DISCORD&color=blue&logo=discord&style=for-the-badge)](https://discord.gg/XetraY3Zuh)
 # AIminebot
 ## Inspired by https://voyager.minedojo.org/ 
-A Minecraft bot that uses LLM to converts user's chat into actions for a Minecraft player entity.
+A Minecraft bot that uses LLM to convert user's chat into actions for a Minecraft player entity.
 ## SETUP
 
 1] install [node](https://nodejs.org/en/download)<br><br>
